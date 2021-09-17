@@ -14,39 +14,39 @@ The output is an integer. It corresponds to the number of hops needs to reach hi
 10
 
 
-Four musketeers
+## Four musketeers
 Dhoni joined the group of 3 Musketeers and now their group is called four Musketeers. Meanwhile, Dhoni also moved to a new house in the same locality nearby to the other three. Currently, the houses of Sachin, Dravid and Ganguly are located in the shape of a triangle. When the three musketeers asked Dhoni about the location of his house, he said that his house is equidistant from the houses of the other 3. Can you please help them find out the location of the house? Given the 3 locations {(a1,b1), (a2,b2) and (a3,b3)} of a triangle, write a program to determine the point which is equidistant from all the 3 points.
-INPUT FORMAT:
+### INPUT FORMAT:
 Input consists of 6 integers.
 The first integer corresponds to a1.
 The second integer corresponds to b1.
 The third and fourth integers correspond to a2 and b2 respectively.
 The fifth and sixth integers correspond to a3 and b3 respectively.
-OUTPUT FORMAT:
+### OUTPUT FORMAT:
 The output consists of two floating point numbers which correspond to the location of the house.
-SAMPLE INPUT:
+### SAMPLE INPUT:
 2 4 10 15 5 8
 SAMPLE OUTPUT:
 5.66667 9 
 
 
 
-Cricket
+## Cricket
 Peekay is crazy about IPL. He was watching Mumbai Indians vs. Chennai Super Kings final match. Mumbai won the toss and elected to bat first. They finished batting with a score of X. Next, Chennai started to bat and scored Y runs in N number of balls. As Peekay is very crazy, he wants to calculate the run rate and check whether there is a probability for Chennai to win or not. Help him calculate the run-rate and check the probability.
-INPUT FORMAT :
+### INPUT FORMAT :
 Input consists of 4 integers.
 First input corresponds to the total number of balls.
 Second input corresponds to the total number of runs.
 Third input corresponds to the number of runs scored.
 Fourth input corresponds to the number of balls bowled.
-OUTPUT FORMAT:
+### OUTPUT FORMAT:
 First output corresponds to the total number of overs.
 Second output corresponds to the total number of overs finished.
 Third output corresponds to the current run rate.
 Fourth output corresponds to total run rate.
 50 7.3 10.7 7.5
 Eligible to Win
-SAMPLE INPUT:
+### SAMPLE INPUT:
 300 375 78 45
 SAMPLE OUTPUT:
 50 7.3 10.7 7.5
