@@ -8,14 +8,14 @@ int main()
 
     big=max(a,b);
     big=max(big,c);
-    for(gcd=big;gcd>=1;gcd--)
+    for(gcd=big;gcd>=1;gcd--) //Calculating the greatest common divisor
     {
         if(a%gcd==0 && b%gcd==0 && c%gcd==0)
         break;
     }
 
     cout<<"The treasure is in the box which has number ";
-    if(big == a)
+    if(big == a) //Calculating the second largest number
     {
         if(b>c)
         cout<<b;
