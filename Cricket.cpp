@@ -18,5 +18,13 @@ int main()
     c_runrate=cruns/c_overs;
     r_runrate=truns/t_overs;
     
-    cout<<endl<<t_overs<<" "<<c_overs<<" "<<c_runrate<<" "<<r_runrate;
+    cout<<endl<<t_overs<<" "<<c_overs<<" "<<c_runrate<<" "<<r_runrate<<endl;
+    if(r_runrate<c_runrate)
+    {
+        cout<<"Eligible to Win";
+    }
+    else
+        cout<<"Not eligible to win";
+    
+    return 0;
 }
