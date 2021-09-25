@@ -52,18 +52,18 @@ SAMPLE OUTPUT:
 50 7.3 10.7 7.5
 Eligible to Win
 
-##Treasure Hunter
+## Treasure Hunter
 Though there have been more successful pirates, Blackbeard is one of the best-known and widely-feared of his time. He commanded four ships and had a pirate army of 300 at the height of his career and defeated the famous warship, HMS “Scarborough” in sea-battle. He was known for barreling into battle clutching two swords with several knives and pistols at the ready. He captured over forty merchant ships in the Caribbean and without flinching killed many prisoners. Now, Blackbeard and his three pirates found a treasure of gold coins. Long Ben too joined them. They decided to share the treasure. Blackbeard agreed to give x% share for Long Ben. He then decided to take y% share from the remaining treasure. His other pirates will share the remaining gold coins equally. Write a program to compute their share's.
-###INPUT FORMAT:
+### INPUT FORMAT:
 Input consists of 3 integers.
 The first input corresponds to the number of gold coins in the treasure.
 The second input corresponds to Ben's share percentage and the last input is Blackbeard's share percentage.
-###OUTPUT FORMAT:
+### OUTPUT FORMAT:
 The output consists of three integers.
 The first output integer corresponds to Long Ben's share.
 The second integer corresponds to Blackbeard's share.
 The last integer corresponds to other pirates share.
-###SAMPLE INPUT: 
+### SAMPLE INPUT: 
 729
 65
 87
@@ -72,15 +72,15 @@ The last integer corresponds to other pirates share.
 222
 11
 
-##Lab Allocation - II
+## Lab Allocation - II
 There are 3 labs in the Chemical department(L1, L2, and L3) with a seating capacity of x, y, and z respectively. One of the 3 labs has been allocated for FACE training. Out of the available labs(after allocating one to FACE training), write a program to find the lab which has minimal seating capacity.
-###INPUT FORMAT:
+### INPUT FORMAT:
 Input consists of 3 integers and a string.
 The first input is an integer which denotes the seating capacity of L1(x).
 The second input is an integer which denotes the seating capacity of L2(y).
 The third input is an integer which denotes the seating capacity of L3(z).
 The fourth input is a string which denotes the lab which is allocated for FACE training.
-###OUTPUT FORMAT:
+### OUTPUT FORMAT:
 Print the minimal seating capacity lab among the available labs.
 Refer the sample output for formatting.
 ###SAMPLE INPUT:
@@ -88,6 +88,6 @@ Refer the sample output for formatting.
 40
 20
 L3
-###SAMPLE OUTPUT:
+### SAMPLE OUTPUT:
 L1
 
