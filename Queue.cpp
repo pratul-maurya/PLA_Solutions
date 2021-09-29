@@ -14,14 +14,14 @@ int main()
     {
         if(a[i] <= seats)
         {
-            seats -= a[i];
+            seats -= a[i]; //check if there enough seats for the i th group
             i++;
         }
 
         else
         {
-            seats = m;
-            bus++;
+            seats = m; //else the next bus has m seats remaining
+            bus++; //increase total bus number
         }
     }
     cout<<endl<<bus;
