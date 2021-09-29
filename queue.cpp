@@ -12,9 +12,9 @@ int main()
     int bus=1;
     for(int i= 0;i<n;)
     {
-        if(a[i] <= seats)
+        if(a[i] <= seats) //check if there enough seats for the i th group
         {
-            seats -= a[i]; //check if there enough seats for the i th group
+            seats -= a[i]; //subtract the remanining number of seats
             i++;
         }
 
