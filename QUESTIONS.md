@@ -137,99 +137,91 @@ Phoebe Buffay started working for Chandler Bing and he wanted her to write a C++
 The input is an integer 'n' which denotes the first term of the sequence.
 As output, print the numbers in the sequence and also print the number of times the rule has to be applied in order to reach 1.
 
-##Data mining
+## Data mining
 In the Hogwarts University examinations conducted during the past 5 years, the toppers registration numbers were 7128, 8019, 7128, 7678 and 6567.Rachel Green is an expert in data mining and she could easily infer a pattern in the toppers registration numbers. In all the registration numbers listed here, the sum of the odd digits is equal to the sum of the even digits in the number. She termed the numbers that satisfy this property as Probable Topper Numbers. Now, write a C++ program to find whether a given number is a probable topper number or not
 
-###INPUT & OUTPUT FORMAT:
+### INPUT & OUTPUT FORMAT:
 Input consists of a single integer.
 The output consists of a single line. Refer to the sample output for details.
 
-###SAMPLE INPUT & OUTPUT:
+### SAMPLE INPUT & OUTPUT:
 143
 Yes
 	 Case 1
 	 Case 2
 	 Case 3
 
-##Debt Repay
+## Debt Repay
 Alice wanted to start a business and she was looking for a venture capitalist. Through her friend Bob, she met the owner of a construction company who is interested to invest in an emerging business. Looking at the business proposal, the owner was very much impressed with Alice's work. So he decided to invest in Alice's business and hence gave a green signal to go ahead with the project. Alice bought Rs.X for a period of Y years from the owner at R% interest per annum. Find the rate of interest and the total amount to be given by Alice to the owner. The owner, impressed by proper repayment of the financed amount decides to give a special offer of 2% discount on the total interest at the end of the settlement. Find the amount given back by Alice and also find the total amount. (Note: All rupee values should be in two decimal points).
 
-###INPUT FORMAT:
+### INPUT FORMAT:
 Input consists of 3 integers.
 The first integer corresponds to the principal amount borrowed by Alice.
 The second integer corresponds to the rate of interest
 The third integer corresponds to the number of years.
 
-###OUTPUT FORMAT:
+### OUTPUT FORMAT:
 The output consists of 4 floating point values.
 The first value corresponds to the interest.
 The second corresponds to the amount.
 The third value corresponds to the discount.
 The last value corresponds to the final settlement.
 All floating point values are to be rounded off to two decimal places
-###SAMPLE INPUT: 
+### SAMPLE INPUT: 
 100
 1
 10
-###SAMPLE OUTPUT: 
+### SAMPLE OUTPUT: 
 10.00
 110.00
 0.20
 109.80
 
-##Treasure Hunter
+## Treasure Hunter
 Though there have been more successful pirates, Blackbeard is one of the best-known and widely-feared of his time. He commanded four ships and had a pirate army of 300 at the height of his career and defeated the famous warship, HMS “Scarborough” in sea-battle. He was known for barreling into battle clutching two swords with several knives and pistols at the ready. He captured over forty merchant ships in the Caribbean and without flinching killed many prisoners. Now, Blackbeard and his three pirates found a treasure of gold coins. Long Ben too joined them. They decided to share the treasure. Blackbeard agreed to give x% share for Long Ben. He then decided to take y% share from the remaining treasure. His other pirates will share the remaining gold coins equally. Write a program to compute their share's.
-###INPUT FORMAT:
+
+### INPUT FORMAT:
 Input consists of 3 integers.
 The first input corresponds to the number of gold coins in the treasure.
 The second input corresponds to Ben's share percentage and the last input is Blackbeard's share percentage.
-###OUTPUT FORMAT:
+
+### OUTPUT FORMAT:
 The output consists of three integers.
 The first output integer corresponds to Long Ben's share.
 The second integer corresponds to Blackbeard's share.
 The last integer corresponds to other pirates share.
-###SAMPLE INPUT: 
+
+### SAMPLE INPUT: 
 729
 65
 87
-###SAMPLE OUTPUT:
+
+### SAMPLE OUTPUT:
 473
 222
 11
 
-##Ascending Order
+## Ascending Order
 Klaus Mikaelson and his daughter Hope were arguing about who is the smartest person in the family. Klaus who is a world known Computer Engineer, asked Hope who has not yet completed her college to write a C++ program to sort the given array in ascending order. Can you help Hope?
 
-###INPUT FORMAT:
-
+### INPUT FORMAT:
 Input consists of 1 integer and 1 array.
-
 Integer corresponds to the size of the array.
 
-###SAMPLE INPUT:
-
+### SAMPLE INPUT:
 5
 
 54
-
 68
-
 25
-
 14
-
 74
 
-###SAMPLE OUTPUT:
-
+### SAMPLE OUTPUT:
 Sorted array is:
 
 14
-
 25
-
 54
-
 68
-
 74
