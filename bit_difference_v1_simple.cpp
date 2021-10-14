@@ -26,16 +26,16 @@ int main()
     {
         cin>>arr[i];
     }
-
+    int m=1000000007; // 10^9+7 = 1000000007
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
         {
             sum+=res.difference(arr[i], arr[j]);
+            sum %=m; //Return the answer modulo 10^9+7
         }
     }
-    int m=1000000007; // 10^9+7 = 1000000007
-    sum %=m; //Return the answer modulo 10^9+7
+    
     cout<<sum;
     return 0;
 }
