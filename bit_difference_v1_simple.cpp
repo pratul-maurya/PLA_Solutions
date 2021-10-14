@@ -34,6 +34,8 @@ int main()
             sum+=res.difference(arr[i], arr[j]);
         }
     }
+    int m=1000000007; // 10^9+7 = 1000000007
+    sum %=m; //Return the answer modulo 10^9+7
     cout<<sum;
     return 0;
 }
