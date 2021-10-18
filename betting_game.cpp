@@ -26,7 +26,9 @@ class Solution
                 bet*=2;
             }
         }
-        
+        if (amt < 1)
+            return -1;
+        else
             return amt;
     }
 };
