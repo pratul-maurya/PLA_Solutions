@@ -21,5 +21,7 @@ int main()
     Solution res;
     long long n;
     cin>>n;
-    cout<<res.ballRemoval(n);
+    long long MOD = 1000000007;
+    cout<<res.ballRemoval(n) % MOD;
+    return 0;
 }
