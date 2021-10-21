@@ -7,12 +7,15 @@ class Solution
     int oddSearch(int *arr, int low, int high)
     {
         if(low > high)
-            return -1;
+            return -1; //no odd occurence found
         else if(low == high)
             return (arr[high]);
         
+        //middle point
         int mid = (low + high) / 2;
 
+        //if mid is even and [mid]==[mid] 
+        //then it means odd element is on the right side of mid else on left
         if(mid % 2 == 0)
         {
             if(arr[mid] ==  arr[mid + 1])
@@ -20,6 +23,9 @@ class Solution
             else
                 oddSearch(arr, low, mid);
         }
+        
+        // If mid is odd and [mid-1]==[mid]
+        //then it means odd element is on the right side of mid else on lef
         else
         {
             if(arr[mid - 1] == arr[mid])
