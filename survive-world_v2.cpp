@@ -28,7 +28,7 @@ int main()
     int k = 1,index=0;
     vector<int> person;
     //in our case we are returning the index of the surviving person for the staring position being 0th position
-    for(int i = 0;i <= n;i++)//otherwise start the for loop from 1 and codition is i<=n
+    for(int i = 0;i < n;i++)//otherwise start the for loop from 1 and codition is i<=n
     {
         person.push_back(i);
     }
