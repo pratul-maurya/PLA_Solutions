@@ -18,5 +18,6 @@ int main()
     Solution res;
     int n,k = 2;
     cin>>n;
-    cout<<res.survive(n,k);
+    //in our case we are returning the index of the surviving person for the staring position being 0th position
+    cout<<res.survive(n-1,k);
 }
