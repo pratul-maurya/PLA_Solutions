@@ -22,11 +22,15 @@ class Solution
 
 int main()
 {
+    Solution res;
     int n;
-    cin n;
+    cin>>n;
+    int k = 1,index=0;
     vector<int> person;
     for(int i = 1;i <= n;i++)
     {
         person.push_back(i);
     }
+    res.Josephus(person,k,index);
+    return 0;
 }
