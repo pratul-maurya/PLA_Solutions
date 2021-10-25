@@ -19,3 +19,14 @@ class Solution
     }
 
 };
+
+int main()
+{
+    int n;
+    cin n;
+    vector<int> person;
+    for(int i = 1;i <= n;i++)
+    {
+        person.push_back(i);
+    }
+}
