@@ -225,3 +225,231 @@ Sorted array is:
 54
 68
 74
+
+Sum of all permutations
+Given the size N of array A, followed by the line of array elements. Find the sum of all possible permutation values without duplicates.
+
+Constraints:
+1 < N < 9
+0 < A[i] < 10
+
+Example 1:
+Input:
+2
+1 2
+Output:
+33
+Explanation:
+The possible permutations are 12 and 21. Their sum will be 33.
+
+Example 2:
+Input:
+3
+1 2 3
+Output:
+1332
+Case 1
+Case 2
+Input (stdin)
+2
+1
+2
+Output (stdout)
+33
+Input (stdin)
+3
+1
+2
+3
+Output (stdout)
+1332
+
+Euler's phi Algorithm
+Given a number N, find the sum of its natural co-prime till N.
+Example 1:
+Input:
+10
+Output:
+20
+Explanation:
+The co-primes of 10 are 1, 3, 7, and 9. And their sum will be 20. 
+Example 2:
+Input:
+8
+Output:
+16
+Explanation:
+The co-primes of 8 are 1, 3, 5, and 7. And their sum will be 16.
+	 Case 1
+	 Case 2
+Input (stdin)
+10
+Output (stdout)
+20
+Input (stdin)
+8
+Output (stdout)
+16
+
+Angle between hour and minute hand
+Let us consider the normal wall clock we use. Write a program to calculate the smallest angle between the hour 'H' and the minute 'M' hand of a clock, for the given time. Set the precision to two decimal points. Print "Invalid Input" if the time is invalid.
+Constraints:
+0 < H <= 12
+0 <= M < 60
+Example:
+Input:
+3 30
+Output:
+75.00
+	 Case 1
+	 Case 2
+Input (stdin)
+3 30
+Output (stdout)
+75.00
+
+hr hand:
+12hrs = 360deg
+1hr = 30 deg
+60m = 30 deg
+1m = 1/2 deg
+min hand:
+60 min = 360 deg
+1min = 6 deg
+time:7:30pm
+Angle covered by hr hand - angle covered by min hand
+7*30 + 30 *1/2 - 30*6
+7*30 +30(1/2 - 6)
+7*30 + 30(-11/2)
+30*H - 11/2*M
+Angle = 30H ~ 11/2 M
+If H>M , 30H - 11/2 M
+If M>H,11/2 M - 30 H
+
+
+
+The sum of digits until single digit is obtained
+Write a program to find the sum of the digits of a number until the sum is reduced to a single digit.  
+Format: 
+Input: The first line of input contains the number of test cases T. For each test case, the first line of input contains an integer. 
+Output: The output contains a single line integer value for T test cases.  
+
+Constraints: 1 ≤ N ≤ 105 1 ≤ T ≤ 10  
+
+Example: 
+Input: 
+3 
+12345 
+749 
+5298 
+Output: 
+6 
+2 
+6 
+
+Explanation: 
+Testcase 1: 12345 -> 1+2+3+4+5 = 15 -> 1+5 = 6. 
+Testcase 2: 749 -> 7+4+9 = 20 -> 2+0 = 2. 
+Testcase 3: 5298 -> 5+2+9+8 = 24 -> 2+4 = 6.  
+Case 1
+Case 2
+Input (stdin)
+3
+12345
+749
+5298 
+Output (stdout)
+6
+2
+6
+
+Input (stdin)
+4
+856
+74
+896
+9231 
+Output (stdout)
+1
+2
+5
+6 
+
+
+Sum of N natural numbers
+Write a program to find the sum of N natural numbers in a given range.
+Format:
+Input:
+The input consists of two integers.
+Output:
+The output should be an integer.
+Example:
+Input:
+5 10
+Output:
+45
+Explanation:
+The sum of natural numbers between 5 and 10 is 5+6+7+8+9+10 = 45.
+
+Case 1
+Case 2
+Input (stdin)
+5 10
+Output (stdout)
+45
+
+Number of elements with odd factors in a given range
+Write a program to find the number of elements with odd factors in the given range (inclusive of ranges).
+For
+Input:
+The input consists of two integers.
+Output:
+The output consists of an integer.
+Example:
+Input:
+1 100
+Output:
+10
+Case 1
+Case 2
+Input (stdin)
+1 100
+Output (stdout)
+10
+
+Fibonacci or not
+Write a program to check whether the given number is Fibonacci or not.
+Example 1:
+Input:
+5
+Output:
+Yes
+Example 2:
+Input:
+ 10
+Output:
+No
+Case 1
+Case 2
+Input (stdin)
+5
+Output (stdout)
+Yes
+
+Number of palindromes
+Given the number of digits, find the number of palindrome till those numbers of digits. A palindromic number (also known as a numeral palindrome or a numeric palindrome) is a number that remains the same when its digits are reversed. Like 16461, for example, it is "symmetrical". The term palindromic is derived from palindrome, which refers to a word (such as rotor or racecar) whose spelling is unchanged when its letters are reversed. Like if the digit is 2 then the answer will be 18. The 2 digit palindromic numbers are: 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44, 55, 66, 77, 88, 99. Note: Do not consider 0.
+
+Sample Input:
+1
+Sample Output:
+9
+Sample Input:
+1
+Sample Output:
+9
+Case 1Case 2Case 3
+Input (stdin)
+1
+Output (stdout)9
+ like 1
+
