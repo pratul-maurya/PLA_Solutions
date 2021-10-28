@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//Time Complexity: O(3n)
 class Solution
 {
     public:
