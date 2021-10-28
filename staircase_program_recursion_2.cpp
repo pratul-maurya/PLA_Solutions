@@ -21,6 +21,6 @@ int main()
 {
     Solution res;
     int n;
-    n=4;
+    cin>>n;
     cout<<res.steps(n);
 }
