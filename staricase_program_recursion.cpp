@@ -4,7 +4,7 @@ using namespace std;
 class Solution
 {
     public:
-    long steps(long n)
+    long steps(int n)
     {
         if (n == 1 || n == 0)
         {
@@ -18,7 +18,7 @@ class Solution
 int main()
 {
     Solution res;
-    long n;
+    int n;
     cin>>n;
     cout<<res.steps(n);
 }
